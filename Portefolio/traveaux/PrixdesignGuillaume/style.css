@@ -1,0 +1,327 @@
+/* External */
+
+@font-face {
+    font-family: 'ansonregular';
+    src: url('img/fonts/anson-regular-webfont.eot');
+    src: url('img/fonts/anson-regular-webfont.eot?#iefix') format('embedded-opentype'), url('img/fonts/anson-regular-webfont.woff') format('woff'), url('img/fonts/anson-regular-webfont.ttf') format('truetype'), url('img/fonts/anson-regular-webfont.svg#ansonregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+/* All */
+
+* {
+    margin: 0;
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h3,
+h4,
+nav>a,
+div.case-citation p,
+label {
+    font-family: ansonregular;
+}
+
+h4 {
+    font-weight: normal;
+    font-style: italic;
+}
+
+body {
+    margin: 0 auto;
+    align-content: center
+}
+
+h3 {
+    text-transform: uppercase;
+}
+
+.fontsize13 {
+    font-size: 13px;
+}
+
+.fontsize10 {
+    font-size: 10px;
+}
+
+.margespace {
+    margin: 8px 0 12px 0;
+}
+
+
+/* Header */
+
+
+/* titre */
+
+header nav:nth-child(1) {
+    top: 20px;
+    position: relative;
+}
+
+#titrephoto {
+    color: white;
+    float: left;
+}
+
+#titreagency {
+    color: #ff4f13;
+}
+
+header nav p {
+    font-family: ansonregular;
+    font-size: 24px;
+}
+
+#titlephoto {
+    position: relative;
+    top: -11px;
+    right: -10px;
+}
+
+header img {
+    width: 62%;
+}
+
+
+/*hover*/
+
+header div nav a {
+    border-radius: 36px;
+    height: 25px;
+    margin: AUTO 0;
+    justify-content: center;
+    transition: 0.3s;
+}
+
+header div nav a:hover {
+    background-color: #ff4f13;
+    border-radius: 36px;
+    height: 25px;
+    margin: AUTO 0;
+    justify-content: center;
+}
+
+
+/* fin titre */
+
+header {
+    background-image: url(img/header.png);
+    height: 144px;
+}
+
+.grid-header {
+    display: grid;
+    grid-template-columns: 480PX 96px 96px 96px 96px 96px;
+    justify-content: center;
+}
+
+nav>a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+}
+
+main div {
+    margin: 20px 0;
+}
+
+
+/* Main */
+
+
+/* Citations*/
+
+.grid-citation {
+    display: grid;
+    grid-template-columns: 50px 860px 50px;
+}
+
+main>div>div>p:nth-child(1) {
+    font-size: 47px;
+}
+
+main>div>div>p:nth-child(2) {
+    font-size: 32px;
+}
+
+.case-citation {
+    font-size: 30px;
+    color: #fd4f14;
+    text-align: center;
+    font-family: ansonregular;
+    justify-content: center;
+    padding-bottom: 20px;
+    margin: 40px 0;
+}
+
+#imgopen {
+    position: relative;
+    top: -30px;
+}
+
+#imgclose {
+    position: relative;
+    top: 95px;
+}
+
+.borderimg {
+    border: 4px double #e3e3e3;
+    border-radius: 7px;
+}
+
+
+/*fin Citation*/
+
+section {
+    padding-right: 6px;
+}
+
+.grid-article1 {
+    display: grid;
+    grid-template-columns: 320px 320px 320px;
+    background-color: #e6e6e6;
+    padding: 30px 0;
+    justify-content: center;
+}
+
+.grid-article2 {
+    display: grid;
+    grid-template-columns: 300px 320px 320px;
+    grid-template-rows: 1fr 1fr;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+
+/* Footer */
+
+footer p {
+    font-size: 10px;
+    line-height: 9px;
+}
+
+.grid-footer {
+    display: grid;
+    grid-template-columns: 320px 320px 320px;
+    justify-content: center;
+    background-image: url(img/bg-header.png);
+    height: 144px;
+    color: white;
+    font-size: 13px;
+    margin-top: 40px;
+}
+
+footer div {
+    margin: auto 0;
+}
+
+form div input {
+    margin-top: 10px;
+    border-radius: 10px;
+    border: 0 black;
+    height: 20px;
+}
+
+#positem {
+    justify-content: end;
+}
+
+
+/* SPIRIT */
+
+footer div:nth-child(3) {
+    display: flex;
+}
+
+#facebook {
+    display: flex;
+    width: 50px;
+    height: 50px;
+    background: url(img/reseaux.png) -1px 0px;
+    margin: 0 8px;
+    transition: 0.3s;
+}
+
+#twitter {
+    display: flex;
+    width: 50px;
+    height: 50px;
+    background: url(img/reseaux.png) 112px 0px;
+    margin: 0 8px;
+    transition: 0.3s;
+}
+
+#rss {
+    display: flex;
+    width: 50px;
+    height: 50px;
+    background: url(img/reseaux.png) 51px 0px;
+    transform: 2s;
+    translate: 2s;
+    margin: 0 8px;
+    transition: 0.3s;
+}
+
+
+/*SPIRIT HOVER*/
+
+#facebook:hover {
+    display: flex;
+    width: 50px;
+    height: 50px;
+    background: url(img/reseaux.png) -1px 51px;
+}
+
+#twitter:hover {
+    display: flex;
+    width: 50px;
+    height: 50px;
+    background: url(img/reseaux.png) 112px 51px;
+}
+
+#rss:hover {
+    display: flex;
+    width: 50px;
+    height: 50px;
+    background: url(img/reseaux.png) 51px 51px;
+}
+
+
+/* Portfolio */
+
+.completefooterportfolio {
+    position: relative;
+}
+
+.completefooterportfolio>p {
+    display: flex;
+    justify-content: center;
+    text-transform: uppercase;
+}
+
+.Portfoliorond {
+    overflow: hidden;
+    border: 2px solid grey;
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    margin: auto;
+    position: relative;
+    top: 20px;
+}
+
+.Portfoliorond:hover {
+    box-shadow: 1px 1px 12px #555;
+}
+
+.Portfoliorond img {
+    width: 200px;
+    position: relative;
+}

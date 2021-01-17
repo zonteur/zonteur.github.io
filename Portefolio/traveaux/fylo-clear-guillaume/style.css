@@ -1,0 +1,282 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Raleway:wght@400;700&display=swap');
+
+/* general */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+* {
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+/* general */
+
+.widthdesktop,
+header {
+    width: 1440px;
+}
+
+.width500 {
+    width: 500px;
+}
+
+.imgillu {
+    width: 650px;
+    padding: 20px;
+}
+
+
+/* centrage */
+
+.marginautoC,
+header {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.dflex {
+    display: flex;
+}
+
+.dgrid {
+    display: grid;
+}
+
+.jcc {
+    justify-content: center;
+}
+
+.jcsb {
+    justify-content: space-between;
+}
+
+.jcse {
+    justify-content: space-evenly;
+}
+
+.aic {
+    align-items: center;
+}
+
+
+/* espacement */
+
+.mrg-tb10,
+.mrg-tb10>p,
+.mrg-tb10>a {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.mrg-tb20 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.padd-tb20 {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.padd-t20 {
+    padding-top: 20px;
+}
+
+.padd-tb50 {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.Mrg-t-30 {
+    margin-top: 30px;
+}
+
+
+/* COLOR */
+
+.blue-clear {
+    background-color: #f9f8fe;
+}
+
+.blue {
+    background-color: #575989;
+}
+
+.dark-blue {
+    background: #07043b;
+}
+
+.white {
+    background-color: white;
+}
+
+.fontwhite {
+    color: white;
+}
+
+.borderw {
+    border: 3px rgb(228, 228, 228) solid;
+}
+
+
+/* font */
+
+h2 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 36px;
+    font-weight: 700;
+}
+
+h4 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+}
+
+
+/* header */
+
+header a {
+    font-size: 20px;
+    color: black;
+    text-decoration: none;
+}
+
+header nav {
+    grid-gap: 60px;
+}
+
+.poscurve {
+    position: relative;
+    top: 45px;
+    left: 25%;
+}
+
+
+/* main */
+
+button {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    background-color: #2f65f9;
+    padding: 8px 25px;
+    color: white;
+    width: 180px;
+    border: none;
+    border-radius: 3px;
+}
+
+input {
+    width: 340px;
+    padding: 6px;
+    border: 1px solid black;
+    border-radius: 3px;
+}
+
+.infobulle {
+    font-size: 13px;
+    padding: 20px;
+    width: 271px;
+}
+
+.colorA {
+    text-decoration: none;
+    color: green;
+    padding-bottom: 5px;
+    border-bottom: 1px solid green;
+}
+
+.formedivrond {
+    overflow: hidden;
+    border-radius: 50px;
+    width: 30px;
+    height: 30px;
+    margin-right: 5px;
+}
+
+
+/* footer */
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+footer p,
+footer a {
+    color: white;
+}
+
+footer a {
+    text-decoration: none;
+}
+
+
+/* MOBILE  */
+
+@media (max-width: 700px) {
+    /* general */
+    /* font */
+    header a {
+        font-size: 15px;
+    }
+    p {
+        font-size: 15px;
+    }
+    h2 {
+        font-size: 25px;
+    }
+    /* header */
+    .widthMobile {
+        width: 100px;
+    }
+    header nav {
+        grid-gap: 10px;
+    }
+    header a {
+        font-size: 15px;
+    }
+    /* main */
+    .dnone {
+        display: none;
+    }
+    .txtCentrerM {
+        text-align: center;
+    }
+}
+
+.completefooterportfolio {
+    position: relative;
+}
+
+.completefooterportfolio>p {
+    display: flex;
+    justify-content: center;
+    text-transform: uppercase;
+}
+
+.Portfoliorond {
+    overflow: hidden;
+    border: 2px solid grey;
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    margin: auto;
+    position: relative;
+    top: 20px;
+}
+
+.Portfoliorond:hover {
+    box-shadow: 1px 1px 12px #555;
+}
+
+.Portfoliorond img {
+    width: 200px;
+    position: relative;
+}

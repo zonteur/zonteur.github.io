@@ -1,0 +1,194 @@
+                        @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Roboto:wght@700&display=swap');
+                        /* font-family: 'Montserrat', sans-serif;
+
+font-family: 'Roboto', sans-serif; */
+                        /* general */
+                        
+                        * {
+                            margin: 0;
+                            padding: 0;
+                        }
+                        
+                        body {
+                            width: 60%;
+                            margin: 40px auto;
+                        }
+                        
+                        .dispayNone {
+                            display: none;
+                        }
+                        
+                        .greyColoum {
+                            background-color: grey;
+                            width: auto;
+                        }
+                        
+                        .grid3cloumn {
+                            display: grid;
+                            grid-template-columns: 1fr 1px 1fr;
+                            grid-gap: 70px;
+                        }
+                        
+                        .spaceCategorie {
+                            margin-bottom: 60px;
+                        }
+                        /* font */
+                        
+                        p {
+                            line-height: 23px;
+                            margin: 0px 0;
+                        }
+                        
+                        p,
+                        li {
+                            color: rgb(80, 80, 80);
+                            font-family: 'Montserrat', sans-serif;
+                        }
+                        
+                        h2 {
+                            font-size: 3rem;
+                        }
+                        
+                        h3 {
+                            font-size: 1, 4rem;
+                        }
+                        
+                        h1,
+                        h2,
+                        h3,
+                        h4,
+                        h5,
+                        h6 {
+                            font-weight: 700;
+                            text-transform: uppercase;
+                            font-family: 'Roboto', sans-serif;
+                        }
+                        
+                        h4 {
+                            color: black;
+                            margin: 20px 0 20px 0;
+                            font-size: 30px;
+                        }
+                        
+                        h5 {
+                            color: darkred;
+                            font-size: 20px;
+                            margin: 20px 0 10px 0;
+                        }
+                        
+                        h6 {
+                            margin: 7px 0;
+                            font-size: 15px;
+                        }
+                        
+                        ul {
+                            list-style: none;
+                        }
+                        
+                        li {
+                            margin: 5px 0;
+                        }
+                        /* hardskill */
+                        
+                        .gridskill {
+                            display: grid;
+                            grid-template-columns: 115px 1fr;
+                        }
+                        
+                        .gridskill li {
+                            margin: 10px 0;
+                        }
+                        
+                        .Caseskills {
+                            padding-top: 16px;
+                        }
+                        
+                        .Caseskills>div {
+                            width: 150px;
+                            height: 6.7px;
+                            border-radius: 5px;
+                            background-color: rgb(202, 202, 202);
+                            margin-bottom: 22.3px;
+                            position: relative;
+                            overflow: hidden;
+                        }
+                        
+                        .RemplisementSkill>div>div {
+                            height: 7px;
+                            background: black;
+                        }
+                        /* Percentage */
+                        
+                        .troisprC {
+                            width: 35px;
+                        }
+                        
+                        .quatreprC {
+                            width: 45px;
+                        }
+                        
+                        .cinqprC {
+                            width: 75px;
+                        }
+                        
+                        .sixprC {
+                            width: 85px;
+                        }
+                        
+                        .septprC {
+                            width: 100px;
+                        }
+                        
+                        .huitprC {
+                            width: 115px;
+                        }
+                        
+                        .neufprC {
+                            width: 130px;
+                        }
+                        
+                        @media screen and (max-width: 1169px) {
+                            .dispayNoneMobile {
+                                display: none;
+                            }
+                            .grid3cloumn {
+                                display: grid;
+                                grid-template-columns: 1fr;
+                                grid-gap: 70px;
+                            }
+                            .dispayNone {
+                                display: initial;
+                            }
+                        }
+                        /* FOOTER */
+                        
+                        .completefooterportfolio {
+                            top: 100px;
+                            position: relative;
+                        }
+                        
+                        .completefooterportfolio>p {
+                            display: flex;
+                            justify-content: center;
+                            text-transform: uppercase;
+                        }
+                        
+                        .Portfoliorond {
+                            overflow: hidden;
+                            border: 2px solid grey;
+                            width: 100px;
+                            height: 100px;
+                            border-radius: 50px;
+                            margin: auto;
+                            position: relative;
+                            top: 20px;
+                        }
+                        
+                        .Portfoliorond:hover {
+                            box-shadow: 1px 1px 12px #555;
+                        }
+                        
+                        .Portfoliorond img {
+                            width: 200px;
+                            position: relative;
+                        }

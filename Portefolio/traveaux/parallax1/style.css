@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@1,300&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
+
+section {
+    height: 100vh;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    padding: 2vw;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-size: 3vw;
+}
+
+h3 {
+    margin: 35px;
+}
+
+h3:first-of-type {
+    text-transform: uppercase;
+}
+
+section:first-of-type {
+    font-size: 4vw;
+}
+
+section:first-of-type,
+section.pop {
+    color: #fff;
+    text-shadow: 0 0 5px rgba(0, 0, 0, 0.4);
+}
+
+section:nth-of-type(even) {
+    background: #fff;
+}
+
+section:nth-of-type(1) {
+    background-image: url(img/thumb-1920-1043977.jpg);
+}
+
+section:nth-of-type(3) {
+    background-image: url(img/thumb-1920-751911.jpg);
+    color: aliceblue;
+}
+
+section:nth-of-type(5) {
+    background-image: url(img/thumb-1920-81006.jpg);
+}
+
+h3,
+p {
+    font-family: 'Cormorant Garamond', serif;
+}
+
+section>img {
+    width: 80vh;
+}
+
+.taillehtrois {
+    font-size: 2vw;
+}
+
+.taillep {
+    font-size: 1vw;
+}
+
+
+/* Portfolio */
+
+.completefooterportfolio {
+    position: relative;
+}
+
+.completefooterportfolio>p {
+    display: flex;
+    justify-content: center;
+    text-transform: uppercase;
+}
+
+.Portfoliorond {
+    overflow: hidden;
+    border: 2px solid grey;
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    margin: auto;
+    position: relative;
+    top: 20px;
+}
+
+.Portfoliorond:hover {
+    box-shadow: 1px 1px 12px #555;
+}
+
+.Portfoliorond img {
+    width: 200px;
+    position: relative;
+}

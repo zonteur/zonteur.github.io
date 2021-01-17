@@ -1,0 +1,297 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+
+/* general */
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+h2,
+h3,
+h4,
+p,
+a {
+    text-align: center;
+}
+
+p,
+a {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h2,
+h3,
+h4 {
+    font-family: 'Roboto Slab', serif;
+}
+
+.marginauto,
+body {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.paddingauto {
+    padding-left: auto;
+    padding-right: auto;
+}
+
+.jc,
+main>div>div>div,
+h2,
+.botmain div,
+h4 {
+    display: flex;
+    justify-content: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    width: 100%;
+}
+
+p {
+    text-align: center;
+    font-size: 20px;
+}
+
+
+/* header */
+
+header {
+    background-color: #222222;
+}
+
+header>div>a {
+    color: white;
+    text-transform: uppercase;
+    font-size: 10px;
+}
+
+.imagemodtop {
+    padding-left: 15%;
+}
+
+.test {
+    display: grid;
+    grid-template-columns: 75% 10% 12.5%;
+    padding: 15px 0px 10px 0;
+}
+
+
+/* main */
+
+h3,
+h4 {
+    color: #e74c3c;
+}
+
+main>div>div {
+    padding: 30px 220px;
+}
+
+main>div>div>div {
+    margin: 35px 0;
+}
+
+
+/* top main */
+
+.img div p span {
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+h2 {
+    font-weight: bold;
+    font-size: 50px;
+}
+
+h3,
+h4,
+span>span {
+    text-transform: uppercase;
+}
+
+.grid_top {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(3, 1fr);
+}
+
+.img {
+    background-image: url(img/hero-image.jpg);
+    background-size: cover;
+}
+
+.bttom {
+    background-color: #d9534f;
+    padding-top: 7px;
+    width: 140px;
+    height: 27px;
+    border-radius: 5px;
+}
+
+.bttom>a {
+    color: white;
+}
+
+.img p,
+.img h2 {
+    color: white;
+}
+
+
+/* centre main */
+
+
+/* .padbot {
+    padding: 0 80vh;
+} */
+
+.padbot span {
+    color: #d9534f;
+}
+
+
+/* bottom main */
+
+.Dblock,
+.grid_botmain>div {
+    display: block;
+    grid-gap: 40px;
+}
+
+.grid_botmain>div {
+    margin: 0 20px;
+}
+
+.botmain {
+    background-color: #f5f5f5;
+}
+
+.spirit1 {
+    background-image: url(img/icon.jpg);
+    background-repeat: no-repeat;
+    background-position: 0px 0px;
+}
+
+.spirit2 {
+    background-image: url(img/icon.jpg);
+    background-repeat: no-repeat;
+    background-position: -114px 0px;
+}
+
+.spirit3 {
+    background-image: url(img/icon.jpg);
+    background-repeat: no-repeat;
+    background-position: -220px 0px;
+}
+
+.spiritall {
+    height: 96px;
+    width: 96px;
+    margin: 20px auto;
+}
+
+.grid_botmain {
+    padding: 0 auto;
+}
+
+.grid_botmain div a {
+    font-size: 12px;
+    background-color: white;
+    height: 21px;
+    color: #d9534f;
+    border-radius: 5px;
+    border: 1px solid #80808038;
+    padding-top: 6px;
+    font-weight: bold;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-top: 20px;
+}
+
+h4 {
+    margin-bottom: 20px;
+}
+
+
+/* footer */
+
+footer {
+    background-color: #f74c3c;
+    padding: 160px 0 40px 220px;
+}
+
+@media (max-width: 991px) {
+    #gridbot {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+    }
+    .spiritall {
+        margin-top: 40px;
+    }
+}
+
+@media (max-width: 767px) {
+    .imagemodtop {
+        padding-left: 2%;
+    }
+    main>div>div {
+        padding: 30px 20px;
+    }
+    .grid_botmain>div {
+        margin: 0 0px;
+    }
+    footer {
+        padding: 100px 0 20px 10px;
+    }
+    p {
+        font-size: 15px;
+    }
+    h2 {
+        font-size: 30px;
+    }
+    .Dnone {
+        display: none;
+    }
+}
+
+
+/* Portfolio */
+
+.completefooterportfolio {
+    position: relative;
+}
+
+.completefooterportfolio>p {
+    display: flex;
+    justify-content: center;
+    text-transform: uppercase;
+}
+
+.Portfoliorond {
+    overflow: hidden;
+    border: 2px solid grey;
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    margin: auto;
+    position: relative;
+    top: 20px;
+}
+
+.Portfoliorond:hover {
+    box-shadow: 1px 1px 12px #555;
+}
+
+.Portfoliorond img {
+    width: 200px;
+    position: relative;
+}

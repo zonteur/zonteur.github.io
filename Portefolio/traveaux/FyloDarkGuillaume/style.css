@@ -1,0 +1,327 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.width-general {
+    width: 1440px;
+}
+
+
+/* font */
+
+p,
+a {
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+}
+
+h2 {
+    font-size: 40px;
+}
+
+p {
+    font-size: 14px;
+    line-height: 24px;
+}
+
+.blutypo {
+    color: rgb(88, 195, 211);
+}
+
+.stylenone>a {
+    text-decoration: none;
+}
+
+
+/* SIZE */
+
+.width-txt250 {
+    width: 250px;
+}
+
+.width-txt300 {
+    width: 300px;
+}
+
+.width-txt350,
+.mar-centre>p,
+.foooterdivspace>div {
+    width: 350px;
+}
+
+.width-txt490 {
+    width: 590px;
+}
+
+.width-680 {
+    width: 680px;
+}
+
+.width-800 {
+    width: 800px;
+}
+
+
+/* SIZE TYPO */
+
+
+/* spacing */
+
+header>div {
+    margin: 50px;
+}
+
+.Mrg-tb-10px {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.Mrg-tb-30px {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.Mrg-tb-40px,
+h2 {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.Mrg-tb-auto {
+    margin-bottom: auto;
+    margin-top: auto;
+}
+
+.Mrg-t-30 {
+    margin-top: 30px;
+}
+
+.Mrg-t-100 {
+    margin-top: 100px;
+}
+
+.mrg-l-50px>a {
+    margin-left: 50px;
+}
+
+.Mrg-l-20 {
+    margin-left: 20px;
+}
+
+.padd-30 {
+    padding: 30px;
+}
+
+.mrg-auto {
+    margin: auto;
+}
+
+.mrg-50 {
+    margin: 50px;
+}
+
+.mrg-l-70px {
+    margin-left: 70px;
+}
+
+.padd-lr-55 {
+    padding-left: 55px;
+    padding-right: 55px;
+}
+
+
+/* ALIGN */
+
+.txtalignC {
+    text-align: center;
+}
+
+
+/* GRID */
+
+.displaygrid {
+    display: grid;
+}
+
+.gridC2 {
+    grid-template-columns: 1fr 1fr;
+}
+
+.gridC3 {
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.gridC5 {
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+
+
+/* FLEX */
+
+.displayflex {
+    display: flex;
+}
+
+.jtfc-sb {
+    justify-content: space-between;
+}
+
+.jtfc-centre {
+    justify-content: center;
+}
+
+
+/* color */
+
+.color-clear-blue,
+header {
+    background-color: #1c2230;
+}
+
+.color-dark-blue {
+    background-color: #181e2a;
+}
+
+.color-blue-cmmt>div>div {
+    background-color: #21293c;
+}
+
+.color-black-blue,
+footer,
+body {
+    background-color: #0c1524;
+}
+
+.color-black-blue-separated {
+    background-color: #1c2230;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a,
+button {
+    color: white;
+}
+
+
+/* bouton */
+
+.butonBlue {
+    background: linear-gradient(270deg, rgba(88, 195, 211, 1) 100%, rgba(64, 172, 211, 1) 100%);
+}
+
+.butonsize {
+    border-radius: 30px;
+    padding: 14px 20px;
+    box-shadow: none;
+    border: none;
+}
+
+
+/* Profilage div */
+
+.formedivrond {
+    overflow: hidden;
+    border-radius: 50px;
+    width: 30px;
+    height: 30px;
+}
+
+.formedivrond>img {
+    size: 30px;
+}
+
+
+/* separated div */
+
+.spacedivsepar {
+    position: relative;
+    bottom: -65px;
+}
+
+
+/* autre */
+
+.mar-centre>img,
+.mar-centre>p,
+.mar-centre>h4,
+.mar-centre>a,
+.mar-centre>h2 {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding: 0 auto;
+    justify-content: center;
+}
+
+.bordreseau {
+    display: flex;
+    border: 1PX SOLID honeydew;
+    border-radius: 15px;
+    width: 20px;
+    height: 20px;
+    justify-content: center;
+    vertical-align: middle;
+}
+
+.test2 {
+    z-index: 1;
+}
+
+.test {
+    position: relative;
+    top: 40px;
+    z-index: 2;
+    width: 100%;
+}
+
+
+/* Portfolio */
+
+.completefooterportfolio {
+    position: relative;
+}
+
+.completefooterportfolio>p {
+    display: flex;
+    justify-content: center;
+    text-transform: uppercase;
+}
+
+.Portfoliorond {
+    overflow: hidden;
+    border: 2px solid grey;
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    margin: auto;
+    position: relative;
+    top: 20px;
+}
+
+.Portfoliorond:hover {
+    box-shadow: 1px 1px 12px rgb(255, 255, 255);
+}
+
+.Portfoliorond img {
+    width: 200px;
+    position: relative;
+}

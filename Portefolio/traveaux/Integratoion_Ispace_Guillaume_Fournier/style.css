@@ -1,0 +1,300 @@
+/* EXTERNAL */
+
+@import url('https://fonts.googleapis.com/css2?family=News+Cycle&display=swap');
+
+/* GENERAL */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 60px auto;
+    width: 1024px;
+    background-color: #6b615e;
+}
+
+
+/* header */
+
+header a {
+    padding: 40PX 30px;
+}
+
+header div {
+    justify-content: center;
+    display: flex;
+    height: 110px;
+}
+
+nav div a {
+    transition: 0.15s;
+}
+
+nav div:hover {
+    background-color: #6B625E;
+}
+
+nav div:hover a {
+    color: white;
+}
+
+#pagecourante:hover {
+    background-color: #662f3e;
+    padding: 40px 62px;
+}
+
+
+/*main*/
+
+.centreimg {
+    display: flex;
+    margin: 30px auto;
+}
+
+main>div>div>p {
+    padding: 35px 15px 0 15px;
+    margin: -5px 0 0 0;
+    font-size: 17px;
+    line-height: 23px;
+    background-color: #6b615e;
+}
+
+
+/*footer*/
+
+hr {
+    border: solid 1px #6b615e;
+}
+
+footer {
+    height: 133px;
+}
+
+footer>a,
+p {
+    margin: auto 0;
+}
+
+
+/* A */
+
+a {
+    text-decoration: none;
+}
+
+header a {
+    color: #555555;
+}
+
+main a {
+    color: white;
+}
+
+.spiritfacebook {
+    display: block;
+    width: 33px;
+    height: 32px;
+    background-image: url(img/reseaux.png);
+    background-position: 0px 0px;
+    background-repeat: no-repeat;
+}
+
+.spirittwitter {
+    display: block;
+    width: 33px;
+    height: 32px;
+    background-image: url(img/reseaux.png);
+    background-position: -32px 0px;
+    background-repeat: no-repeat;
+}
+
+.spiritgoogle {
+    display: block;
+    width: 33px;
+    height: 32px;
+    background-image: url(img/reseaux.png);
+    background-position: -64px 0px;
+    background-repeat: no-repeat;
+}
+
+
+/* SPIRIT HOVER*/
+
+.spiritfacebook:hover {
+    background-position: 0px -32px;
+}
+
+.spirittwitter:hover {
+    background-position: -32px -32px;
+}
+
+.spiritgoogle:hover {
+    background-position: -64px -32px;
+}
+
+
+/*bouton*/
+
+.bottomarticle {
+    background-image: url(img/plus_btn.png);
+    width: 274px;
+    height: 100px;
+    position: relative;
+    display: flex;
+    background-repeat: no-repeat;
+    background-position: 209px 36px;
+}
+
+.bottomarticle:hover {
+    background-image: url(img/plus_btn_h.png);
+}
+
+.botttomread {
+    background-color: #564c48;
+    padding: 15px 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    top: 30px;
+    position: relative;
+}
+
+.botttomread:hover {
+    background-color: #662F32;
+}
+
+
+/* ul / li*/
+
+main li {
+    list-style: none;
+    line-height: 24px;
+    font-size: 16px;
+    font-family: ARIAL;
+    margin: 10px 0;
+    color: #555555;
+}
+
+
+/* COLOR */
+
+.bgcwhite {
+    background-color: white;
+}
+
+.bgcbordeaux {
+    background-color: #662f32;
+}
+
+
+/* FONT */
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav div a,
+h2,
+h3 {
+    font-family: 'News Cycle', sans-serif;
+}
+
+nav div a,
+h2 {
+    text-transform: uppercase;
+}
+
+h2 {
+    font-size: 30px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+h3 {
+    font-size: 30px;
+    color: #6e625e;
+    margin-bottom: 10px;
+}
+
+p {
+    color: #555555;
+}
+
+.colorwhite {
+    color: white;
+}
+
+section>p:nth-of-type(1) {
+    color: #662f32;
+    font-weight: bold;
+    font-size: 21px;
+    font-family: 'News Cycle', sans-serif;
+    line-height: 30px;
+    margin-bottom: 20px;
+}
+
+section>p:nth-of-type(2) {
+    line-height: 23px;
+}
+
+
+/* GRID */
+
+.grid_nav {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    margin: 0 auto 40px auto;
+    padding: 0 100px;
+}
+
+.grid_three {
+    display: grid;
+    grid-template-columns: repeat(3, 288px);
+    margin: 50px 0 30px 0;
+}
+
+.espacegrid {
+    justify-content: space-evenly;
+    ;
+}
+
+.grid_footer {
+    display: grid;
+    grid-template-columns: auto 32px 32px 32px;
+    padding: 0 40px;
+    grid-gap: 10px;
+}
+
+
+/* Portfolio */
+
+.completefooterportfolio {
+    position: relative;
+}
+
+.completefooterportfolio>p {
+    display: flex;
+    justify-content: center;
+    text-transform: uppercase;
+}
+
+.Portfoliorond {
+    overflow: hidden;
+    border: 2px solid grey;
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    margin: auto;
+    position: relative;
+    top: 20px;
+}
+
+.Portfoliorond:hover {
+    box-shadow: 1px 1px 12px #555;
+}
+
+.Portfoliorond img {
+    width: 200px;
+    position: relative;
+}

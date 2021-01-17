@@ -1,0 +1,199 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap');
+body {
+    width: 1065px;
+}
+
+p {
+    line-height: 140%;
+}
+
+.paddsec {
+    padding: 0 60px;
+}
+
+.colone424 {
+    width: 424px;
+}
+
+.fondgrey {
+    background: rgb(246, 246, 246);
+}
+
+.colorgrey {
+    color: rgb(192, 192, 192);
+}
+
+.boutonlaod {
+    border: 1px solid black;
+    width: 125px;
+    padding: 10px 5px;
+}
+
+.margtop40 {
+    margin-top: 40px;
+}
+
+.margbot20 {
+    margin-bottom: 20px;
+}
+
+.margbot40 {
+    margin-bottom: 40px;
+}
+
+.margbot60 {
+    margin-bottom: 60px;
+}
+
+.margbot100 {
+    margin-bottom: 100px;
+}
+
+.paddtop40 {
+    padding-top: 40px;
+}
+
+.paddbot40 {
+    padding-bottom: 40px;
+}
+
+#email {
+    background: rgba(255, 235, 205, 0);
+    text-decoration: underline;
+    border: 0px solid black;
+    border-bottom: 1px solid black;
+    line-height: 140%;
+    text-decoration: none;
+}
+
+a,
+h1,
+h2,
+h3,
+h4,
+h5,
+p {
+    color: rgb(100, 100, 100);
+    font-family: 'Lora', serif;
+}
+
+h6 {
+    font-family: 'Roboto', sans-serif;
+}
+
+footer>div>div>a,
+footer>div>div>p {
+    color: black;
+}
+
+.gridcolumn3frmod {
+    grid-template-columns: auto 65% 15%;
+}
+
+.gridcolumn5frmod {
+    grid-template-columns: auto 15% 15% 15% 15%;
+}
+
+.vertialign {
+    vertical-align: middle;
+}
+
+p {
+    font-size: 80%;
+}
+
+header>div>div>a {
+    margin: 0 auto;
+    display: flex;
+    padding: 50px 0 50px 0;
+    justify-content: center;
+}
+
+header>div>div>a:hover {
+    margin: 0 auto;
+    display: flex;
+    padding: 50px 0 50px 0;
+    justify-content: center;
+    background: linear-gradient(rgb(246, 246, 246), white);
+}
+
+.padtop50 {
+    padding: 50px 0 0 0;
+}
+
+.hover:hover {
+    background: rgb(246, 246, 246);
+}
+
+.hovertest:hover {
+    background: linear-gradient(-90deg, rgb(246, 246, 246), white);
+}
+
+.surligne:hover {
+    text-decoration: underline;
+}
+
+.zoom {
+    width: 100%;
+    height: auto;
+    border-radius: 1%;
+    overflow: hidden;
+}
+
+.zoomimg {
+    width: 100%;
+    height: auto;
+    border-radius: 1%;
+    transform: scale(1.0);
+    transition: 2s;
+}
+
+.zoomimg:hover {
+    transform: scale(1.15);
+}
+
+.test {
+    top: -584px;
+    position: relative;
+    overflow: hidden;
+}
+
+.test:hover {
+    top: -623px;
+    position: relative;
+    overflow: hidden;
+}
+
+
+/* Portfolio */
+
+.completefooterportfolio {
+    position: relative;
+}
+
+.completefooterportfolio>p {
+    display: flex;
+    justify-content: center;
+    text-transform: uppercase;
+}
+
+.Portfoliorond {
+    overflow: hidden;
+    border: 2px solid grey;
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    margin: auto;
+    position: relative;
+    top: 20px;
+}
+
+.Portfoliorond:hover {
+    box-shadow: 1px 1px 12px #555;
+}
+
+.Portfoliorond img {
+    width: 200px;
+    position: relative;
+}

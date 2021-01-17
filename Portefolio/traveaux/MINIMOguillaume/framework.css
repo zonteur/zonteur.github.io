@@ -1,0 +1,123 @@
+/* ALPHA 0.1 by Guillaume */
+/* MARGIN*/
+*{
+    margin: 0;
+}
+.margauto{
+    margin: auto;
+}
+.margbase {
+    margin: 10px 5px 10px 5px;
+}
+.margcentre {
+    margin: 0 auto;
+}
+/* PADDNG*/
+.paddauto{
+    padding: auto;
+}
+.paddbase {
+    padding: 5px 5px 5px 5px;
+}
+.paddcentre {
+    padding: 0 auto;
+}
+/* --DISPLAY-- */
+/* FLEX */
+.displayflex {
+    display: flex;
+}
+/* GRID */
+.displaygrid{
+    display: grid;
+}
+.gridcolumn2fr{
+    grid-template-columns: 1fr 1fr;
+} 
+.gridcolumn3fr{
+    grid-template-columns: 1fr 1fr 1fr;
+} 
+.gridcolumn4fr{
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.gridcolumn5fr{
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+} 
+.gridgap20 {
+    grid-gap: 20px;
+}
+/* POSITION */
+.posrelative{
+    position: relative;
+}
+.posabsolut {
+    position: absolute;
+}
+/* POSITION ELEMENT*/
+.justcentre {
+    justify-content: center;
+}
+.txtalignctr {
+    text-align: center;
+}
+.alignitemctr {
+    align-items: center;
+}
+.floatleft {
+    float: left;
+    /*metre a droite*/
+}
+/* GRAPHIQUE */
+.border {
+    border: 1px solid black;
+}
+.anone {
+    text-decoration: none;
+}
+.txtmaj {
+    text-transform: uppercase;
+}
+.borderradius {
+    border-radius: 20px;
+}
+.backgroundblack{
+    background-color : black}
+/* WIDTH */
+.widthauto {width: auto}
+.width100 {width: 100px;}
+.width200 {width: 200px;}
+.width300 {width: 300px;}
+.width400 {width: 400px;}
+.width500 {width: 500px;}
+.width600 {width: 600px;}
+.width700 {width: 700px;}
+.width800 {width: 800px;}
+.width900 {width: 900px;}
+.width1000 {width: 1000px;}
+.width1100 {width: 1100px;}
+.width1200 {width: 1200px;}
+.width1400 {width: 1400px;}
+.width1300 {width: 1300px;}
+.width1500 {width: 1500px;}
+/* height */
+.heightauto {height: auto}
+.height100 {height: 100px;}
+.height200 {height: 200px;}
+.height300 {height: 300px;}
+.height400 {height: 400px;}
+.height500 {height: 500px;}
+.height600 {height: 600px;}
+.height700 {height: 700px;}
+.height800 {height: 800px;}
+.height900 {height: 900px;}
+.height1000 {height: 1000px;}
+.height1100 {height: 1100px;}
+.height1200 {height: 1200px;}
+.height1400 {height: 1400px;}
+.height1300 {height: 1300px;}
+.height1500 {height: 1500px;}
+/* TYPOGRAPHIE */
+.font20{font-size: 20px;}
+.font30{font-size: 30px;}
+.font40{font-size: 40px;}
+.font50{font-size: 50px;}
