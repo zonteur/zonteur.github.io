@@ -3,13 +3,6 @@
     padding: 0;
 }
 
-
-/* body {
-    /* margin: 40px; */
-
-
-/* } */
-
 .gridPresentation {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -44,4 +37,16 @@ p {
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 600;
     color: rgb(85, 85, 85);
+}
+
+@media (max-width: 1100px) {
+    .displayNoneMobile {
+        display: none;
+    }
+    .gridPresentation {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+        height: 95%;
+    }
 }
