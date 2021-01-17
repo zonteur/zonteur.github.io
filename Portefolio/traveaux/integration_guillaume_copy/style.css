@@ -20,7 +20,7 @@ body {
 
 main,
 footer>div {
-    width: 1440px;
+    width: 100%;
 }
 
 section>p {
