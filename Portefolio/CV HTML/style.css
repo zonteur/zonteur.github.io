@@ -176,19 +176,27 @@ font-family: 'Roboto', sans-serif; */
                         .Portfoliorond {
                             overflow: hidden;
                             border: 2px solid grey;
-                            width: 100px;
-                            height: 100px;
+                            width: 60px;
+                            height: 60px;
                             border-radius: 50px;
-                            margin: auto;
-                            position: relative;
-                            top: 20px;
+                            /* margin: auto; */
+                            /* position: relative; */
+                            /* top: 20px; */
+                            position: fixed;
+                            right: 30px;
+                            top: 45%;
+                            transition: 1s;
                         }
                         
                         .Portfoliorond:hover {
                             box-shadow: 1px 1px 12px #555;
+                            width: 80px;
+                            height: 80px;
+                            top: 43%;
                         }
                         
                         .Portfoliorond img {
                             width: 200px;
                             position: relative;
-                        }
+                        } 
+                        
