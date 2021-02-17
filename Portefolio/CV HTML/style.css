@@ -147,7 +147,7 @@ font-family: 'Roboto', sans-serif; */
                             width: 130px;
                         }
                         
-                        @media screen and (max-width: 1169px) {
+                        @media screen and (max-width: 1000px) {
                             .dispayNoneMobile {
                                 display: none;
                             }
@@ -160,7 +160,7 @@ font-family: 'Roboto', sans-serif; */
                                 display: initial;
                             }
                         }
-                        /* FOOTER */
+                        /* FOOTER porfolio */
                         
                         .completefooterportfolio {
                             top: 100px;
@@ -176,27 +176,26 @@ font-family: 'Roboto', sans-serif; */
                         .Portfoliorond {
                             overflow: hidden;
                             border: 2px solid grey;
-                            width: 60px;
-                            height: 60px;
-                            border-radius: 50px;
+                            width: 100px;
+                            height: 100px;
+                            border-radius: 50%;
                             /* margin: auto; */
                             /* position: relative; */
                             /* top: 20px; */
                             position: fixed;
                             right: 30px;
-                            top: 45%;
+                            top: 50%;
                             transition: 1s;
                         }
                         
                         .Portfoliorond:hover {
                             box-shadow: 1px 1px 12px #555;
-                            width: 80px;
-                            height: 80px;
-                            top: 43%;
+                            width: 130px;
+                            height: 130px;
+                            top: 47%;
                         }
                         
                         .Portfoliorond img {
-                            width: 200px;
+                            width: 250px;
                             position: relative;
-                        } 
-                        
+                        }
