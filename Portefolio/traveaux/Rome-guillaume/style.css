@@ -58,7 +58,8 @@ h6 {
     width: 100%;
 }
 
-#navbarToggleExternalContent {}
+
+/* #navbarToggleExternalContent {} */
 
 
 /* DESKTOP DESIGN */
@@ -237,4 +238,44 @@ header a:hover {
     width: 36rem;
     height: 90px;
     transition: width 0.7s ease 0.3s, height 0.3s ease;
+}
+
+
+/* Portfolio */
+
+.completefooterportfolio {
+    position: relative;
+}
+
+.completefooterportfolio>p {
+    display: flex;
+    justify-content: center;
+    text-transform: uppercase;
+}
+
+.Portfoliorond {
+    overflow: hidden;
+    border: 2px solid grey;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    /* margin: auto; */
+    /* position: relative; */
+    /* top: 20px; */
+    position: fixed;
+    right: 30px;
+    top: 50%;
+    transition: 1s;
+}
+
+.Portfoliorond:hover {
+    box-shadow: 1px 1px 12px #555;
+    width: 130px;
+    height: 130px;
+    top: 47%;
+}
+
+.Portfoliorond img {
+    width: 200px;
+    position: relative;
 }

@@ -1,0 +1,12 @@
+1.1
+    Changement de langue de en > fr
+    Ajout d'un titre
+    modification de body_princial
+    Lien qui mene au soucre dans le footer>a avec un target="_blank"
+    modification partie contact, ajout de 2 lien avec des hover    
+    div en nav dans le footer
+    passage des h5 en h4
+    ajout de description des image dans les alt
+    creation de 4 image pour le responsive
+    adapter les 4 image
+    design travailler au dessus de 500px
