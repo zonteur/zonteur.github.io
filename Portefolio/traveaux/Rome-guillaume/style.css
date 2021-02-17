@@ -1,0 +1,240 @@
+/* info perso d-sm-none display - taille - none */
+
+
+/* TYPOGRAPHY DESIGN*/
+
+@import url('https://fonts.googleapis.com/css2?family=Spartan:wght@500;600;700&display=swap');
+
+/* font-family: 'Spartan', sans-serif; */
+
+p {
+    font-size: 12px;
+    color: hsl(0, 0%, 63%);
+}
+
+p,
+a,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Spartan', sans-serif;
+}
+
+
+/* HEADER */
+
+.headIndex {
+    z-index: 1;
+}
+
+
+/* LOGO */
+
+#posLog {
+    left: 44%;
+    top: 15px;
+}
+
+
+/* BUTTOM SHOP NOW */
+
+#shopMod {
+    letter-spacing: .4rem;
+    text-decoration: none;
+    color: black;
+}
+
+#shopMod:hover {
+    color: hsl(0, 0%, 63%);
+}
+
+
+/* IMAGE WITDH MOBIL FIRST */
+
+.widthforImg {
+    width: 100%;
+}
+
+#navbarToggleExternalContent {}
+
+
+/* DESKTOP DESIGN */
+
+
+/* affiche au dessu de 575 */
+
+header a {
+    color: white;
+}
+
+header a:hover {
+    color: white;
+}
+
+.d-none-mobile a:hover {
+    border-bottom: 1px solid white;
+}
+
+
+/* buttom slider */
+
+
+/* 
+#PosButtomLeft {
+    left: 68.7rem;
+    background-color: black;
+    z-index: 1;
+    position: absolute;
+    width: 93px;
+    height: 93px;
+    bottom: 0px;
+}
+
+#PosButtomRight {
+    background-color: black;
+    z-index: 1;
+    position: absolute;
+    width: 93px;
+    height: 93px;
+    bottom: 0px;
+    left: 258px;
+} */
+
+@media (max-width: 575px) {
+    .d-none-mobile {
+        display: none;
+    }
+}
+
+.zindexMax {
+    z-index: 1000;
+}
+
+
+/* MENU HANMBURGER */
+
+.checkbox-container {
+    display: block;
+    float: left;
+    width: 50px;
+    height: 50px;
+    position: relative;
+}
+
+.menu-content {
+    display: flex;
+    background: #ffffff;
+    color: rgb(0, 0, 0);
+    float: left;
+    width: 35rem;
+}
+
+.menu-content ul {
+    display: flex;
+    padding-left: 0;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    margin: 0;
+    width: 0px;
+    height: 0px;
+    overflow: hidden;
+    transition: height 0.3s ease 0.7s, width 0.7s ease;
+}
+
+.menu-content ul li {
+    list-style: none;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    cursor: pointer;
+    transition: color 0.5s, background 0.5s;
+    margin: 0 20px;
+}
+
+.menu-content ul li:hover {
+    color: #0CD6AD;
+    background: #1E332F;
+}
+
+.checkbox-trigger {
+    opacity: 0;
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    left: 0px;
+    cursor: pointer;
+    z-index: 5;
+}
+
+.hamburger-menu,
+.hamburger-menu::before,
+.hamburger-menu::after {
+    display: block;
+    position: absolute;
+    background: white;
+    width: 40px;
+    height: 4px;
+    margin: 1.3em 3em;
+    transition: background 0.3s;
+}
+
+.hamburger-menu::before,
+.hamburger-menu::after {
+    content: '';
+    position: absolute;
+    margin: -0.7em 0 0;
+    transition: width 0.7s ease 0.3s, transform 0.7s ease 0.3s;
+}
+
+.hamburger-menu::after {
+    margin-top: 0.7em;
+}
+
+.hamburger-menu {
+    position: relative;
+    display: block;
+    margin: 0;
+    margin-top: 1.45em;
+    margin-right: 0.35em;
+    margin-left: 0.35em;
+    margin-bottom: 1.45em;
+    transition: width 0.3s ease;
+}
+
+
+/* button du retour pour fermé le hamburger */
+
+.checkbox-trigger:checked {
+    left: 512px;
+}
+
+.checkbox-trigger:checked+.menu-content .hamburger-menu {
+    width: 2em;
+    transition: width 0.7s ease 0.7s;
+    background: black;
+    z-index: 2000px;
+}
+
+.checkbox-trigger:checked+.menu-content .hamburger-menu::before {
+    width: 1.2em;
+    transform: rotate(-35deg);
+    margin-top: -0.4em;
+    background: black;
+    z-index: 2000px;
+}
+
+.checkbox-trigger:checked+.menu-content .hamburger-menu::after {
+    width: 1.2em;
+    transform: rotate(35deg);
+    margin-top: 0.4em;
+    background: black;
+    z-index: 2000px;
+}
+
+.checkbox-trigger:checked+.menu-content ul {
+    width: 36rem;
+    height: 90px;
+    transition: width 0.7s ease 0.3s, height 0.3s ease;
+}
