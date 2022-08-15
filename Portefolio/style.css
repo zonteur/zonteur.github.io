@@ -98,7 +98,7 @@ img {
 
 /* hover */
 
-.div_hover>p {
+/*.div_hover>p {
     background: rgba(0, 0, 0, 0.51);
     width: 97%;
     height: 80%;
@@ -112,4 +112,4 @@ img {
 
 .div_hover:hover>#a {
     display: flex;
-}
+}*/
